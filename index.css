@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&family=Oswald:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgba(255, 165, 0, 0.73);
+    background-repeat: no-repeat;
+}
+.navigation{
+    background-color: black;
+    align-items: center;
+    position: static;
+    margin-top: 0px;
+    
+    
+}
+ul{
+    display: flex;
+    margin-left:8px ;
+    align-items: center;
+    list-style-type: none;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    color: white;
+    margin-left: 80px;
+    align-items: center;
+    
+}
+li :hover{
+  background-image: linear-gradient(black, rgb(41, 40, 40));
+}
+
+#logo{
+    margin-right:30px;
+}
+.logotit{
+    font-family: 'Nunito';
+    font-size: xx-large;
+    align-items: center;
+    font-style: bolder;
+    margin-right: 40px;
+}
+
+#Gmaps{
+  margin-left: 195px;
+  padding: 15px;
+  background-image: linear-gradient(blue,rgb(20, 20, 135));
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+#Gmaps:hover{
+background-image:linear-gradient(blue,rgb(85, 85, 214));
+font-family: 'Nunito';
+font-size: large;
+color: white;
+cursor: pointer;
+}
+/* video*/
+video{
+    margin-left: 160px;
+    margin-top: 45px;
+    width: 1500px;
+    position: fixed;
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto;
+    z-index: -100;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #333;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  #video-background {
+    position: fixed;
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 50%;
+    width: auto; 
+    height: auto;
+    z-index: -100;
+  }
+
+  /* container*/
+
+  .container{
+    margin-top:450px;
+    background-color: black;
+    padding: 90px;
+  }
+
+  
+  .one{
+    color: white;
+    font-family: 'Nunito';
+    padding-right: 185px;
+    margin-left: 115px;
+    margin-top: 140px;
+    align-items: center;
+  }
+ 
+  h1{
+    color: white;
+    font-family: 'Nunito';
+    margin-left: 115px;
+    padding-right: 85px;
+  }
+
+  .containerone,.containerone,.containerthree{
+   
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 120px;
+    padding-bottom: 10px;
+    background: rgba(0,0,0,0.5);
+  }
+
+
+  .containerone{
+    background: rgba(0,0,0,0.5);
+    margin-top: 120px;
+    border-radius: 10px;
+    display: flex;
+    padding-right:250px;  transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+
+  }
+
+  .containerone.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+ 
+ 
+
+  .containertwo{
+    background-image: linear-gradient(black,rgb(44, 41, 41));
+    margin-top: 120px;
+    border-radius: 10px;
+    display: flex; 
+    padding-right:250px; 
+   
+ 
+
+  }
+  
+  
+
+  .containerthree{
+    background-image: linear-gradient(black,rgb(44, 41, 41));
+    margin-top: 120px;
+    border-radius: 10px;
+    display: flex;
+    padding-right:250px;  
+    
+  }
+
+ 
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: white;
+    background-image: linear-gradient(black,rgb(32, 32, 33));
+    padding: 40px;
+    
+}
+p{
+    margin-left: 560px;
+}
+
+/*About*/
+body{
+  background-color: black;
+}
+
+#imageAbout{
+  margin-top:5px;
+
+}
+.Aboutcont{
+  display: flex;
+}
+#tit{
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 150px;
+}
+
+
+/* Contact*/
+#contacting{
+  width: 50px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#contactustit{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: xx-large;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 660px;
+
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.containeroo {
+  border-radius: 5px;
+  background-color: black;
+  padding: 7px;
+  margin: 15px 20px;
+}
+
+h3{
+  color: white;
+  margin-left: 45px;
+}
+
+.Aboutcont1{
+  margin-left: 150px;
+ border: 2px solid wheat;
+}
+
+.tems{
+  background-image: linear-gradient(black,rgb(45, 6, 6));
+  padding: 15px;
+  border-radius: 5px;
+  color: yellow;
+  font-family: 'Nunito';
+  display: flex;
+  margin-top: 45px;
+}
+
+.aboutcont{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 85px 135px 15px 20px;
+  font-size: x-large;
+  font-weight: bolder;
+
+}
+
+.aboutcont h4{
+  word-spacing: 1px;
+}
+#contactus{
+  margin-left: 660px;
+}
+
+#add{
+  color: white;
+  margin-left: 150px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top: 45px;
+}
+
+.contadd{
+  display: flex;
+}

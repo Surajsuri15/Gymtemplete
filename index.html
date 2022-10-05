@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arnold Gym</title>
+  <link rel="stylesheet" href="/index.css">
+  <link rel="icon" type="image/y-icon" href="/images/logo.png">
+</head>
+<body>
+  <video width="220" height="340" autoplay>
+    <source src="/images/intro.mp4" type="video/mp4" id="video">
+  </video>
+  <nav class="navigation">
+    <ul>
+      <li><img src="/images/logo.png" width="150px" id="logo"><span class="logotit">Arnold Gym</span></li>
+      <a href="/index.html" id="menu"><li>Home</li></a>
+      <a href="/About.html" id="menu"><li>About</li></a>
+      <a href="/Contact.html" id="menu"><li>Contact</li></a>
+      <a href="https://www.google.com/maps" id="Gmaps">Find us on Google Maps</a>
+    </ul>
+   
+  </nav>
+<!--Home container-->
+  <div class="container">
+    <div class="content">
+    <h1> We are here for you</h1>
+    <div class="containerone">
+      <img src="/images/fit.jpg" width="380px"><span id="one">
+      <h1>A Daily Workout to Be Healthy</h1>
+    </span>
+      
+
+    </div>
+    <div class="containertwo">
+      <img src="/images/body.jpg" width="380px">
+      <h1>Body Building Training</h1>
+      
+
+    </div>
+    <div class="containerthree">
+      <img src="/images/beginer.jpg" width="380px">
+      <h1>Beginners starter</h1>
+      
+
+    </div>
+
+    <div class="containerthree">
+      <img src="/images/chest.jpg" width="380px">
+      <h1>Chest Training</h1>
+      
+
+    </div>
+    <div class="containerthree">
+      <img src="/images/weight.jpg" width="380px">
+      <h1>Weight Lifting</h1>
+      
+
+    </div>
+    <div class="containertwo">
+      <img src="/images/workout.jpg" width="380px" >
+      <h1>Fitness Routine</h1>
+      
+
+    </div>
+    </div>
+   <div class="tems">
+    <img src="/images/arnold.jpg" width="380px" class="arnold">
+    <h1 class="tems">" The worst Thing I can Be to be same as Everybody else I Hate that "</h1>
+    <div class="">
+    <img src="">
+    </div>
+   </div>
+
+  </div>
+  </div>
+
+  <div class="bottom">
+    <footer>
+      <p>Author @ Team Coders Game</p>
+      
+    </footer>
+  </div>
+
+  <script>
+    window.addEventListener("scroll", reveal);
+
+// To check the scroll position on page load
+reveal();
+
+
+function reveal() {
+    var reveals = document.querySelectorAll(".containerone");
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+
+  
+
+    </script>
+</body>
+</html>
